@@ -1,6 +1,7 @@
 ### General module tests ###
 library(zoon, quietly = TRUE)
 library(roxygen2)
+options(browser = "false")
 if(grepl("ZoonModules.Rcheck", getwd())) setwd('../../00_pkg_src/ZoonModules/tests/testthat')
 # Get our list of modules
 if(basename(getwd()) == 'tests'){
